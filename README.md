@@ -30,9 +30,25 @@
   
   ### Compiling, Training, and Evaluating the Model
    #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
+   
+   *  In the optimized model, layer 1 started with 120 neurons and a relu activation. For layer 2, it dropped to 80 neurons and continued with the relu activation. 
+   *  From there, the sigmoid activation is the better fit for layers 3 (40 neurons) and layer 4 (20 neurons).
     
-   Were you able to achieve the target model performance?
+   #### Were you able to achieve the target model performance?
+   
+   *  No. The target for the model was 75%, but the model could only produce was 72.7% maximum accuracy.
     
-   What steps did you take to try and increase model performance?
+   #### What steps did you take to try and increase model performance?
+   
+   *  To increase model performance, all columns were reviewed. In addition, the SPECIAL_CONSIDERATIONS and STATUS were dropped, which increased the number of neurons and layers. Other activations were tried such as tanh, but the range that model produced went from 40% to 68% accuracy. 
+   *  The linear activation produced the worst accuracy, around 28%. The relu activation at the early layers and sigmoid activation at the latter layers gave the best results.
 
 ## Summary
+
+   The sigmoid and relu activations provide a 72.7% accuracy, which is the best outcome that the model could produce. A recommendation is to try the random forest classifier, given that this variable is less impacted by outliers.
+
+   Feedback: run it on epoch = 50
+
+   The deep learning model predicted approximately 73.03% of the data correctly, which is less than the 75% target. For Alphabet Soup’s, the percentage would need to be higher to meet its purpose.
+
+   To conclude, the deep learning model is a good start to generate accurate predictions. However, to help Alphabet Soup, we would need to tweak the model to allow for further improvements that will generate more accurate results.
