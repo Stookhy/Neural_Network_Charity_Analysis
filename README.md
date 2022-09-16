@@ -14,7 +14,6 @@
 ## Results
 
   ### Data Preprocessing
-
     What variable(s) are considered the target(s) for your model?
     
     What variable(s) are considered to be the features for your model?
