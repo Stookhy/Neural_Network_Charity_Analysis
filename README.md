@@ -60,3 +60,7 @@
    The deep learning model predicted approximately 73.03% of the data correctly, which is less than the 75% target. For Alphabet Soup’s, the percentage would need to be higher to meet its purpose.
 
    To conclude, the deep learning model is a good start to generate accurate predictions. However, to help Alphabet Soup, we would need to tweak the model to allow for further improvements that will generate more accurate results.
+   
+![This is an image](https://github.com/Stookhy/Neural_Network_Charity_Analysis/blob/main/Resources/Fit%20Model%201.png?raw=true)
+
+![This is an image](https://github.com/Stookhy/Neural_Network_Charity_Analysis/blob/main/Resources/Fit%20Model%202.png?raw=true)
