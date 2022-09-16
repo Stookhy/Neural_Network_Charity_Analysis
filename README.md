@@ -16,7 +16,7 @@
   ### Data Preprocessing
    ### What variable(s) are considered the target(s) for your model?
    
-   *  •	The target variables in the model is checking to see if the target is marked as successful in the DataFrame, which indicates that Alphabet has successfully funded this initiative.
+   *  The target variables in the model is checking to see if the target is marked as successful in the DataFrame, which indicates that Alphabet has successfully funded this initiative.
     
    #### What variable(s) are considered to be the features for your model?
    
@@ -29,7 +29,7 @@
    *  Therefore, they do not increase the model accuracy and removing them will increase the overall efficiency of the code.
   
   ### Compiling, Training, and Evaluating the Model
-   How many neurons, layers, and activation functions did you select for your neural network model, and why?
+   #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
     
    Were you able to achieve the target model performance?
     
