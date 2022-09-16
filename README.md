@@ -27,6 +27,8 @@
    
    *  The NAME and EIN columns should be removed from the input data. They provide no impact on the target variables.
    *  Therefore, they do not increase the model accuracy and removing them will increase the overall efficiency of the code.
+   
+   ![This is an image](https://github.com/Stookhy/Neural_Network_Charity_Analysis/blob/main/Resources/Optimize%20the%20Model.png?raw=true)
   
   ### Compiling, Training, and Evaluating the Model
    #### How many neurons, layers, and activation functions did you select for your neural network model, and why?
