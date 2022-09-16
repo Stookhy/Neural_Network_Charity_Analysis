@@ -43,6 +43,10 @@
    *  To increase model performance, all columns were reviewed. In addition, the SPECIAL_CONSIDERATIONS and STATUS were dropped, which increased the number of neurons and layers. Other activations were tried such as tanh, but the range that model produced went from 40% to 68% accuracy. 
    *  The linear activation produced the worst accuracy, around 28%. The relu activation at the early layers and sigmoid activation at the latter layers gave the best results.
 
+![This is an image](https://github.com/Stookhy/Neural_Network_Charity_Analysis/blob/main/Resources/Alphabet%20Soup%20Charity%20.png?raw=true)
+
+![This is an image](https://github.com/Stookhy/Neural_Network_Charity_Analysis/blob/main/Resources/Alphabet%20Soup%20Optimization.png?raw=true)
+
 ## Summary
 
    The sigmoid and relu activations provide a 72.7% accuracy, which is the best outcome that the model could produce. A recommendation is to try the random forest classifier, given that this variable is less impacted by outliers.
